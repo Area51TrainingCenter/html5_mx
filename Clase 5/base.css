@@ -1,0 +1,29 @@
+table {
+  border: none;
+}
+
+td,
+th {
+  border: none;
+  background-color: #ddd;
+  padding: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+td {
+  background-color: salmon;
+}
+
+td:hover {
+  background-color: gold;
+}
+
+.special {
+  background-color: ForestGreen;
+  color: white;
+}
+
+.special:hover {
+  background-color: LightBlue;
+}
