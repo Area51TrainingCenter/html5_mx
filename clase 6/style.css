@@ -1,0 +1,19 @@
+div{ border:1px dotted black; }
+body{ background: red; }
+body, h1, p, video, audio{ border:1px solid red; margin: 0px;}
+
+.divAudio{
+  background: #ccc;
+}
+
+.divVideo{
+  background: #111;
+}
+
+.contenedor{
+  background: #ddd;
+  width: 50%;
+}
+
+
+giacomo1203@gmail.com
