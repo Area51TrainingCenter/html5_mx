@@ -1,0 +1,61 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Franklin:400,700|Ubuntu';
+
+.link1{
+  font-family: 'Ubuntu', sans-serif;
+  color: #000;
+  text-decoration: none;
+}
+.link1:hover{
+  color:rgba(0, 0, 0,.5);
+}
+.link1:active{
+  color:rgba(255, 0, 0,.5);
+}
+
+
+
+.color1{
+  background-color: #ff0000;
+  font-family: 'Ubuntu', sans-serif;
+}
+.color2{
+  background-color: #00ff00;
+  font-family: 'Ubuntu', sans-serif;
+}
+.color3{
+  background-color: #0000ff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.color4{
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, .3);
+  font-family: 'Libre Franklin', sans-serif;
+}
+.color5{
+  background-color: rgba(0, 255, 0, .3);
+  font-family: 'Libre Franklin', sans-serif;
+}
+.color6{
+  background-color: rgba(0, 0, 255, .3);
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+p{
+  font-size: 30px;
+  font-weight:lighter;
+  /*letter-spacing: 2px;*/
+  word-spacing: 20px;
+  font-style: italic;
+  line-height: 45px;
+  text-align: justify;
+  /*text-decoration: underline;*/
+  color: rgba(0, 0, 100, 0.75);
+  text-transform: lowercase;
+  text-shadow: 1px 1px 5px #242424;
+}
+
+.color4:hover{
+  background-color: #000000;
+  color:#FFFFFF;
+}

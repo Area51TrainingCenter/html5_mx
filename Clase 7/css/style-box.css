@@ -1,0 +1,40 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Franklin:400,700|Ubuntu';
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.box1{
+  width: 50%;
+  height: 200px;
+  background-color: rgba(0, 0, 255, 0.5);
+  margin: 12px 20px;
+  padding: 12px 20px;
+  max-width: 150px;
+  display: inline-block;
+}
+nav{
+  background: orange;
+  font-family: 'Libre Franklin', sans-serif;
+}
+ul li{
+  display: inline-block;
+  padding: 10px 20px;
+  border-bottom: 4px solid orange;
+  border-top: 4px solid orange;
+  cursor: pointer;
+}
+ul li:hover{
+  border-bottom: 4px solid black;
+}
+
+.box2{
+  width: 50%;
+  height: 200px;
+  background-color: rgba(0, 255, 0, 0.5);
+  margin: 12px 20px;
+  padding: 12px 20px;
+  max-width: 150px;
+  display: inline-block;
+}
