@@ -1,0 +1,28 @@
+.bordes{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+  padding: 40px;
+  max-width: 200px;
+
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+
+  box-shadow: 5px 5px 15px blue;
+  border-radius: 10px;
+
+}
+
+.borde2{
+  background-color: rgba(0, 255, 0, 0.5);
+  border-width: 10px;
+  border-color: black;
+  border-style: dotted;
+
+  width: 120px;
+  height: 120px;
+
+  border-radius: 50%;
+
+}
