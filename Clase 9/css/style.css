@@ -1,0 +1,84 @@
+html{
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.bloque{
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 30%;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 0px;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.bloque .item1{
+  list-style-type: none;
+}
+.bloque .item2{
+  list-style-type: disc;
+}
+.bloque .item3{
+  list-style-type: square;;
+}
+.bloque .item4{
+  list-style-type: circle;
+}
+.bloque .item5{
+  list-style-image: url(../img/icon.png);
+}
+
+.segundo .item1{
+  list-style-type: decimal;
+}
+.segundo .item2{
+  list-style-type: lower-alpha;
+}
+.segundo .item3{
+  list-style-type: upper-alpha;
+}
+.segundo .item4{
+  list-style-type: lower-roman;
+}
+.segundo .item5{
+  list-style-type: upper-roman;
+  list-style-image: none;
+}
+
+.reporte{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.reporte table{
+  width: 100%;
+  margin: 12px;
+  border-spacing: 5px 10px;
+  border-collapse: collapse;
+}
+
+.reporte table thead{
+  background-color: #a3a3d6;
+  text-transform: uppercase;
+  border-bottom: 3px solid #000000;
+}
+.reporte table thead tr:hover{
+  background-color: #a3a3d6;
+}
+.reporte table td{
+  padding: 5px 5px;
+  border-bottom: 1px solid #000000;
+}
+.reporte table tr:hover{
+  background-color: blue;
+}
+/*.reporte table tbody tr:nth-child(odd){
+  background-color: rgba(255, 255, 255, 0.5);
+}*/
