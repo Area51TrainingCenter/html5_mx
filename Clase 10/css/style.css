@@ -1,0 +1,87 @@
+body{
+  background-color: rgba(100, 0, 0, 0.2);
+}
+
+.registro fieldset{
+  width: 310px;
+  margin-top: 20px;
+  border: 2px solid black;
+  background-color: white;
+  line-height: 1.6em;
+  border-radius: 12px;
+}
+
+.registro legend{
+  font-style: italic;
+  color: white;
+  background-color: black;
+  border-radius: 40px;
+  border:1px solid white;
+  padding: 12px;
+}
+
+.registro input[type="text"]{
+  width: 120px;
+  border: 1px solid #d6d6d6;
+  padding: 4px;
+  outline: none;
+  margin-bottom: 5px;
+
+  background-image: url(http://www.linocarbosieroshop.co.uk/wp-content/themes/boemia.free/images/icons/author.png);
+  background-repeat: no-repeat;
+  background-position: 97%;
+}
+.registro input[name="email"]{
+  background-color: red;
+}
+.registro select{
+  width: 120px;
+  border: 1px solid #d6d6d6;
+  padding: 8px;
+  outline: none;
+  
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+
+.registro input[type="text"]:focus,
+.registro input[type="text"]:hover{
+  border: 1px solid #999999;
+  background-color: #d0e2f0;
+}
+
+.registro input[type="submit"]{
+  border: 1px solid #006633;
+  background-color: #009966;
+  color: #FFFFFF;
+  border-radius: 5px;
+  margin-top: 12px;
+  padding: 5px 10px;
+}
+
+.registro input[type="submit"]:hover{
+  border: 1px solid #006633;
+  background-color: #00cc33;
+  color: #f9f9f9;
+  cursor: pointer;
+}
+
+.registro .submit{
+  text-align: right;
+  width: 310px;
+}
+
+.registro .titulo{
+  width: 80px;
+  float: left;
+}
+
+
+
+
+
+
+
+
+div{}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <title>Formulario</title>
+  </head>
+  <body>
+
+    <form class="registro" action="#">
+
+      <fieldset>
+
+        <legend>Registrate Ahora</legend>
+        <p>
+          <label class="titulo" for="name">Nombre</label>
+          <input type="text" name="name" value="" placeholder="J. Doe"><br>
+
+          <label class="titulo" for="email">Email</label>
+          <input type="text" name="email" value="" placeholder="ejemplo@gmail.com">
+        </p>
+
+        <p>
+          <label class="titulo" for="distrito">Distrito</label>
+          <select class="distrito" name="distrito">
+            <option value="12">San Isidro</option>
+            <option value="13">San Borja</option>
+            <option value="14">San Luis</option>
+          </select>
+        </p>
+
+        <span>Género</span>
+        <label>
+          <input type="radio" name="genero" value="M"> Masculino
+        </label>
+        <label>
+          <input type="radio" name="genero" value="F"> Femenino
+        </label>
+
+      </fieldset>
+
+      <div class="submit">
+        <input type="submit" name="name" value="Registrate!">
+      </div>
+
+    </form>
+
+  </body>
+</html>
