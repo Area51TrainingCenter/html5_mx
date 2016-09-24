@@ -1,0 +1,71 @@
+.b1{
+  position: absolute;
+  background: red;
+  top: 0px;
+  right: 0px;
+  bottom: 75%;
+  left:75%;
+
+  transition: all 2s ease;
+
+   /*{transition-timing-function: linear;}*/
+   /*{transition-timing-function: ease;}*/
+   /*{transition-timing-function: ease-in;}*/
+   /*{transition-timing-function: ease-out;}*/
+   /*{transition-timing-function: ease-in-out;}*/
+}
+.b1:hover,.b2:hover,
+.b3:hover,.b4:hover,
+.b5:hover{
+  background: black;
+  bottom: 0px;
+  left:0px;
+  top:0px;
+  right: 0px;
+  z-index: 9;
+  color: white;
+  font-size: 24px;
+  opacity: 0;
+}
+
+.b2{
+  overflow: hidden;
+  position: absolute;
+  background: blue;
+  top: 0px;
+  left: 0px;
+  bottom: 90%;
+  right:90%;
+
+  transition: all 2s ease;
+}
+.b3{
+  position: absolute;
+  background: #cccccc;
+  bottom: 0px;
+  left: 0px;
+  top: 90%;
+  right:90%;
+
+  transition: all 2s ease;
+}
+.b4{
+  position: absolute;
+  background: #ff54ee;
+  bottom: 0px;
+  right: 0px;
+  top: 90%;
+  left:90%;
+
+  transition: all 2s ease;
+}
+.b5{
+  position: absolute;
+  background: #ccffdd;
+  bottom: 30%;
+  right: 30%;
+  top: 30%;
+  left: 30%;
+
+  transition: all 2s ease;
+}
