@@ -1,0 +1,41 @@
+
+body{
+  background-color: yellow;
+  animation-name: fondo;
+  animation-duration: 10s;
+}
+
+@keyframes fondo {
+  from{
+    background-color: yellow;
+  }
+  to{
+    background-color: black;
+  }
+}
+
+.box1{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: fixed;
+
+  /*animation-name: box1;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in;*/
+
+  /* name - duration - timing - delay - iteration - direction */
+  animation: box1 4s ease 2s infinite alternate;
+
+}
+
+@keyframes box1 {
+  0%{ background-color: red; left:0px; top:0px; }
+  25%{ background-color: blue; left: 300px; top:0px; }
+  50%{ background-color: green; left:300px; top:300px; }
+  75%{ background-color: lime; left:0px; top:300px; }
+  100%{ background-color: yellow; left:0px; top:0px; }
+}
