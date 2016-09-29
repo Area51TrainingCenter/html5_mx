@@ -1,0 +1,31 @@
+.banner{
+  background-image: url(https://thumbs.dreamstime.com/x/abstract-circle-seamless-background-pattern-25117293.jpg);
+  width: 100%;
+  height: 400px;
+
+  background-position: 0 0;
+  animation-name: loop_banner;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+@keyframes loop_banner {
+  0%{ background-position: 0 0 }
+  100%{ background-position: 0 -800px }
+}
+
+
+
+
+.banner2{
+  background-color: #CCCCCC;
+  background-image: url(https://thumbs.dreamstime.com/x/abstract-circle-seamless-background-pattern-25117293.jpg);
+  background-position: 50px 50px;
+
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  border: 2px solid #000000;
+}
