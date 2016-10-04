@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font:14px Georgia, serif;
+  background: #ccc;
+}
+
+article, aside, figure, footer, header, hgroup, nav, section{
+  display: block;
+}
+
+h2{
+  font: 24px Georgia;
+  margin: 0 0 10px 0;
+}
+h3{
+  margin: 0 0 8px 0;
+}
+p{
+  margin: 0 0 20px 0;
+}
+.fluid-wrap{
+  width: 70%;
+  margin: 60px auto;
+  padding: 20px;
+  background: #eee;
+  overflow: hidden;
+}
+aside.sidebar{
+  width: 35%;
+  float: left;
+}
+.main-content{
+  width: 65%;
+  float: right;
+}
+
+aside.sidebar ul{
+  list-style: none;
+}
+
+aside.sidebar ul li a{
+  color: #900;
+  text-decoration: none;
+  padding: 3px 0;
+  display: block;
+}
+
+@media all and (min-width: 1001px){
+  aside.sidebar ul li a:after{
+    content: "(" attr(data-email) ")";
+    font-size: 11px;
+    font-style: italic;
+    color: #666666;
+  }
+
+  section.main-content:after{
+    content: "";
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    background: url("http://static.comicvine.com/uploads/original/3/38511/794443-terminator_1.png");
+    position: absolute;
+    top:10px;
+    right: 10px;
+  }
+
+}
+
+@media all and (max-width: 1000px) and (min-width:520px), (min-width:1150px){
+
+  aside.sidebar ul li a{
+    padding: 10px 0px;
+    padding-left: 25px;
+    background: url(http://www.cre8ivepress.co.uk/quote-img/star.png) no-repeat left center;
+  }
+
+}
+
+
+@media all and (max-width: 699px) and (min-width: 520px), (min-width: 1151px ){
+
+  aside.sidebar ul li a:before{
+    content: "Email: ";
+    font-style: italic;
+    color: #666666;
+  }
+
+}
+
+
+
+
+
+/* ----------   */
