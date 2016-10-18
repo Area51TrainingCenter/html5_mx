@@ -39,9 +39,6 @@ txt += '<p><b>Char index 0-4: </b>' + msj.substring(0,4) + '</p>';
 txt += '<p><b>Reemplazar: </b>' + msj.replace('me', 'x') + '</p>';
 
 
-
-
-
 var elem = document.getElementById('detalles');
 elem.innerHTML = txt;
 
